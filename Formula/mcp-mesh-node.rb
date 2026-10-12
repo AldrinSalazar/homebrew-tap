@@ -6,23 +6,23 @@ class McpMeshNode < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/AldrinSalazar/mcp-mesh/releases/download/v1.0.0/mcp-mesh-node_darwin_arm64.tar.gz"
-      sha256 "c1342648fccff7f50b79134bcd1059dbba87a73ca80bcd74f9cbad4301dd0d6b"
+      url "https://github.com/AldrinSalazar/mcp-mesh/releases/download/v1.1.0/mcp-mesh-node_darwin_arm64.tar.gz"
+      sha256 "025c57e500c12e609f09dee6106df6b668741f3b7222be56d028321162b12c39"
     end
     on_intel do
-      url "https://github.com/AldrinSalazar/mcp-mesh/releases/download/v1.0.0/mcp-mesh-node_darwin_amd64.tar.gz"
-      sha256 "144ee433dde2b9a3cb942b76692b0fac49dd3dc7016b8386b65f75a1a9beffc5"
+      url "https://github.com/AldrinSalazar/mcp-mesh/releases/download/v1.1.0/mcp-mesh-node_darwin_amd64.tar.gz"
+      sha256 "2f07086760f3241dea0580d5b37d4422683fa70d5af21838908df575b8df4def"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AldrinSalazar/mcp-mesh/releases/download/v1.0.0/mcp-mesh-node_linux_arm64.tar.gz"
-      sha256 "4ed22870dcd741d84bb3878c6a83307be4b43472ae7863b8bfa3ed5f355fe09a"
+      url "https://github.com/AldrinSalazar/mcp-mesh/releases/download/v1.1.0/mcp-mesh-node_linux_arm64.tar.gz"
+      sha256 "fc55c1a9c0a1237b53781ee1ed5a0e90031efca9a8d0ee22d6cbcacb5376434c"
     end
     on_intel do
-      url "https://github.com/AldrinSalazar/mcp-mesh/releases/download/v1.0.0/mcp-mesh-node_linux_amd64.tar.gz"
-      sha256 "9e8d236184d4be6e199672f5608dcbad92242e4bd06af42ecd8f7ae6e7729525"
+      url "https://github.com/AldrinSalazar/mcp-mesh/releases/download/v1.1.0/mcp-mesh-node_linux_amd64.tar.gz"
+      sha256 "8be735a8a2c1aaad9fce9148959f6c10d9bdfba621583ac161468cc89b608c5c"
     end
   end
 
